@@ -10,6 +10,8 @@ $$ Heuristic = 100(\text{max kill}) + 10(\text{species diff}) + \text{max eat di
 
 Proximity of search can also be changed
 
+![alt text](https://github.com/Mouuaadd/Vamps.vs.wolves_agent/blob/master/prox.JPG?raw=true)
+
 ## Launch server with docker
 
 ```
