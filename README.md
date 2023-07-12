@@ -1,3 +1,15 @@
+# Vampires vs. wolves agent
+Adversarial search agent implementation on Vamps vs Werewolves board game
+
+The bot won 20 games out of 23 games in the tounament. It managed to always play within 2 seconds and preform smart
+actions.
+
+Heuristic function can be changed in the heuristic.py file:
+
+$$ Heuristic = 100(\text{max kill}) + 10(\text{species diff}) + \text{max eat diff + random bias + end of game} $$
+
+Proximity of search can also be changed
+
 ## Launch server with docker
 
 ```
